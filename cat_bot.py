@@ -3,13 +3,13 @@ import time
 
 #  endpoints q_q
 cat_api_url = 'https://api.thecatapi.com/v1/images/search?limit=1'
-calckey_upload_url = 'https://femboys.love/api/drive/files/upload-from-url'
-calckey_notes_url = 'https://femboys.love/api/notes/create'
-drive_files_url = 'https://femboys.love/api/drive/files'
+calckey_upload_url = 'https://domain.here/api/drive/files/upload-from-url'
+calckey_notes_url = 'https://domain.here/api/notes/create'
+drive_files_url = 'https://domain.here/api/drive/files'
 
 # api keys qwq
-cat_api_key = 'live_Py91iaxcPuJe19FJ5tdqcAaIfSzYN7v84E3c6XUPEB6AYL8EVBLmyn72xYXMNbep'
-calckey_api_key = 'VzK8ux0dRTw9uMQt3AfceCsrPuhuXbc8'
+cat_api_key = '' # get from thecatapi.com
+calckey_api_key = '' # open your API console on calckey, make and get the token
 
 def fetch_cat_image_url():
     headers = {'x-api-key': cat_api_key}
