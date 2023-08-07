@@ -1,6 +1,6 @@
 # Calckey + Pleroma API bots
 
-This is just free to u use code to set up a bot on your calckey instance. 
+This is just free to use code to set up a bot on your calckey instance. 
 If you'd like, you can credit me or leave a star. 
 
 # Explanation
