@@ -46,10 +46,7 @@ def check_for_commands():
                             handle_command(chat_id, auth_token, base_url)
                         elif command_name == "story":
                             from commands.story import handle_command
-                            handle_command(chat_id, auth_token, base_url, author_names)
-                        elif command_name == "media":  
-                            from commands.media import handle_command
-                            handle_command(chat_id, auth_token, base_url, message)  
+                            handle_command(chat_id, auth_token, base_url, author_names)  
                         elif command_name == "spin":  
                             from commands.spin import handle_command
                             handle_command(chat_id, auth_token, base_url, author_names )
